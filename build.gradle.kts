@@ -26,6 +26,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.exposed:exposed-spring-boot-starter:$exposedVersion")
 	implementation("me.paulschwarz:spring-dotenv:4.0.0")
+	implementation("org.jetbrains.exposed:exposed-java-time:$exposedVersion")
 	runtimeOnly("org.postgresql:postgresql")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
